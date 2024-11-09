@@ -27,7 +27,7 @@ email_from = "lockersender@gmail.com"
 email_to = "lockerreceiver@gmail.com"
 
 # Application-specific password for email sender
-pswd = "jreesysnmnvqbfsr" 
+pswd = "*********" 
 
 # Email subject
 subject = "Theft Detected!!!"
