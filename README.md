@@ -1,2 +1,2 @@
-# Smart-Locker-with-Intruder-Alerts
-This project aims to simulate a smart locker system with intruder alerts using Proteus, VSPE, and Python. The system detects authorized and unauthorized users through face recognition and sends email alert with intruder image if unauthorized access is attempted.
+# SecuLock
+This project implements a smart locker security system using Raspberry Pi, Face Recognition, OTP Verification, and Intrusion Detection Mechanisms. The system ensures secure access control by verifying the user's identity through facial recognition using the DeepFace library and the FaceNet model. If face recognition fails, an OTP (One-Time Password) is sent to the owner's registered email for secondary authentication. Additionally, the system incorporates vibration sensors to detect unauthorized access attempts. If a security breach is detected, an alert email with an intruder's photo is sent to the owner, and a buzzer is activated to deter the intruder.
